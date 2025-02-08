@@ -1,6 +1,5 @@
 def hex_to_decimal(hex_str):
     try:
-        # Convert hexadecimal string to decimal integer
         decimal = int(hex_str, 16)
         return decimal
     except ValueError:
@@ -8,7 +7,6 @@ def hex_to_decimal(hex_str):
 
 def decimal_to_hex(decimal_num):
     try:
-        # Convert decimal integer to hexadecimal string
         hex_str = hex(int(decimal_num))
         return hex_str
     except ValueError:
